@@ -1,0 +1,1 @@
+from .core import Asset, AssetAttributes

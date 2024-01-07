@@ -4,7 +4,7 @@ class Asset:
     def __init__(self, asset_id):
         self.id = asset_id
         self.attributes = AssetAttributes()
-        self.returns_history = AssetReturnTimeSeries()
+        self.returns = AssetReturnTimeSeries()
         self.assumptions = AssetAssumptions()
         pass
 
